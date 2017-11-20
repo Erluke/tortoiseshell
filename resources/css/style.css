@@ -1,0 +1,39 @@
+/*establish font and line height for site*/
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+/*establish rules for site container*/
+.site-container {
+  width: 960px;
+  margin: 0 auto;
+}
+/*add background image to "top"*/
+#top {
+  height: 30rem;
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+}
+/*header container with logo, company name and link styles*/
+#header {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background-color: cadetblue;
+  display:flex;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+/*style logo white in header*/
+#logo {
+  margin-right: 1rem;
+  width: 82.125px;
+}
+#logo img {
+  height: 1.5rem;
+}
+#co-name span {
+  position: relative;
+  top: 0.4rem;
+}
