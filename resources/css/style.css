@@ -37,3 +37,32 @@ html {
   position: relative;
   top: 0.4rem;
 }
+nav {
+
+}
+#links {
+    display: flex;
+    position: relative;
+    top: 0.4rem;
+}
+#name-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.link {
+  margin-left: 2rem;
+}
+.link a:link {
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.link a:visited {
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+  text-decoration: none;
+}
