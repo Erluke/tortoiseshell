@@ -13,6 +13,7 @@ html {
   height: 30rem;
   background-image: url("../images/glasses-bg.png");
   background-size: cover;
+  background-position: center ;
 }
 /*header container with logo, company name and link styles*/
 #header {
@@ -43,7 +44,6 @@ html {
 }
 /* nav bar and links*/
 nav {
-
 }
 #links {
     padding-right: 2rem;
@@ -91,4 +91,71 @@ width: 100%;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
+}
+/*middle section with three images and description*/
+#middle {
+
+  height: 14rem;
+}
+#middle-flex {
+
+  display: flex;
+  justify-content: center;
+}
+#paper{
+  margin-bottom: 1rem;
+  width: 3.5rem;
+}
+#ruler {
+  margin-bottom: 2rem;
+  width: 5rem;
+}
+#truck {
+  margin-bottom: 2rem;
+  width: 5rem;
+}
+.middle-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+  margin: 3rem;
+  line-height: 1.4rem;
+  font-family: Helvetica;
+
+}
+/*bottom section with two text boxes*/
+#bottom {
+
+
+  padding-bottom: 5rem;
+}
+#text-boxes {
+  display: flex;
+  justify-content: center;
+}
+#philosophy-container {
+  width: 35%;
+  margin-right: 2.5%;
+  font-family: Helvetica;
+  line-height: 1.4rem;
+}
+#appointments-container {
+  margin-left: 2.5%;
+  width: 35%;
+  font-family: Helvetica;
+  line-height: 1.4rem;
+}
+.mini-header {
+  margin-bottom: 1rem;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+
 }
