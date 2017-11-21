@@ -16,9 +16,11 @@ html {
 }
 /*header container with logo, company name and link styles*/
 #header {
+  position: relative;
+  top: 1rem;
   width: 100%;
-  margin-top: 1rem;
-  padding: 1rem 2rem;
+  /*margin-top: 1rem;*/
+  padding: 1rem 0rem;
   background-color: cadetblue;
   display:flex;
   color: white;
@@ -27,20 +29,24 @@ html {
 }
 /*style logo white in header*/
 #logo {
+  padding-left: 2rem;
   margin-right: 1rem;
   width: 82.125px;
 }
 #logo img {
   height: 1.5rem;
 }
+/*Company name in header*/
 #co-name span {
   position: relative;
   top: 0.4rem;
 }
+/* nav bar and links*/
 nav {
 
 }
 #links {
+    padding-right: 2rem;
     display: flex;
     position: relative;
     top: 0.4rem;
@@ -65,4 +71,24 @@ nav {
   font-family: Helvetica;
   font-size: 1rem;
   text-decoration: none;
+}
+/*header overlay on top image*/
+#motto-container {
+height: 474px;
+width: 100%;
+
+}
+#motto {
+  float: right;
+  position: relative;
+  top: 10rem;
+  left: 2rem;
+  background-color: white;
+}
+#motto h1 {
+  padding: 1.5rem 5rem;
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
 }
