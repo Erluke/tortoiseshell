@@ -230,6 +230,10 @@ footer {
   float: none;
   text-align: center;
 }
+#motto h1 {
+  padding: 1rem 0rem;
+  font-size: 1rem;
+}
 #copyright-container {
   left: 0;
   width: 100%;
@@ -251,5 +255,25 @@ footer {
   padding-right: 2rem;
   position: relative;
   top: 0.4rem;
+}
+}
+/*style for mobile*/
+
+@media screen and (max-width: 600px) {
+  #co-name span{
+    display: none;
+  }
+  #middle {
+
+/*temp code*/    height: 600px; /*temp code*/
+  }
+  #middle-flex {
+    margin-bottom: 2.23rem;
+    margin-top: 2.23rem;
+    flex-direction: column;
+}
+.middle-item {
+  font-size: .77rem;
+  margin: 1.54rem;
 }
 }
