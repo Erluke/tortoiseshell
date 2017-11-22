@@ -13,7 +13,7 @@ html {
   height: 30rem;
   background-image: url("../images/glasses-bg.png");
   background-size: cover;
-  background-position: center ;
+  background-position: center;
 }
 /*header container with logo, company name and link styles*/
 #header {
@@ -44,6 +44,9 @@ html {
 }
 /* nav bar and links*/
 nav {
+}
+#menu-link{
+  display: none;
 }
 #links {
     padding-right: 2rem;
@@ -158,4 +161,95 @@ width: 100%;
   font-size: 1rem;
   color: white;
 
+}
+/*footer with logo and copyright*/
+footer {
+  height: 9.5rem;
+  background-color: azure;
+}
+#copyright-container {
+  width: 50%;
+  position: relative;
+  top: 4rem;
+  left: 4rem;
+  line-height: 1.4rem;
+
+}
+#copyright-container img {
+  height: 1.5rem;
+  padding-right: 1rem;
+
+}
+#copyright-container span {
+  font-family: Helvetica;
+  font-size: 1rem;
+  position: relative;
+  bottom: .4rem;
+
+}
+/* style for tablet-landscape*/
+
+@media screen and (max-width: 1200px) {
+  #top{
+    height: 22rem;
+  }
+  #header {
+    position: static;
+  }
+  #motto-container{
+
+  }
+  #motto {
+    top: 5rem;
+    left: 0rem;
+    margin-right: 2rem;
+  }
+  #motto h1 {
+    padding: .75rem 4rem;
+    font-size: 1.33rem;
+  }
+  #copyright-container {
+
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .site-container {
+    width: 100%;
+  }
+}
+/*style for tablet-portrait*/
+
+@media screen and (max-width: 800px) {
+#top{
+  height: 17rem;
+}
+#motto {
+  margin: 0 auto;
+  top: 9rem;
+  float: none;
+  text-align: center;
+}
+#copyright-container {
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#copyright-container img {
+  margin: 0 auto;
+  padding: 0 0;
+}
+#copyright-container span{
+  display: none;
+}
+#links {
+  display: none;
+}
+#menu-link {
+  display: block;
+  padding-right: 2rem;
+  position: relative;
+  top: 0.4rem;
+}
 }
