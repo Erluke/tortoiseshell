@@ -276,4 +276,35 @@ footer {
   font-size: .77rem;
   margin: 1.54rem;
 }
+#top {
+  background-position: 20%;
+}
+#text-boxes {
+
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+#philosophy-container {
+  padding-bottom: 4rem;
+  width: 100%;
+  margin: 0 auto;
+}
+#philosophy-container p{
+  padding: 0 1rem;
+  font-size: .77rem;
+}
+#appointments-container {
+
+  margin: 0 auto;
+  width: 100%;
+}
+#appointments-container p{
+  padding: 0 1rem;
+  font-size: .77rem;
+}
+.mini-header {
+  text-align: center;
+  width: 100%;
+}
 }
